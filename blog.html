@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .bcolor{
+        background-color: black;
+        padding-bottom: 100%;
+    }
+    .header{
+      
+        display:grid;
+        grid-template-columns: 75px 75px 75px;
+        
+        column-gap: 20px;
+        justify-content: end;
+        
+    }
+    .home
+    {
+        background-color:#3500d3;
+        color:white;
+        display:inline-block;
+        text-align: center;
+        transition:0.20s;
+    }
+    .topics{
+        background-color:#3500d3;
+        color:white;
+        display:inline-block;
+        text-align: center;
+        transition:0.20s;
+    }
+    .portfolio{
+        background-color:#3500d3;
+        color:white;
+        display:inline-block;
+        text-align: center;
+        transition:0.20s;
+    }
+   
+    .portfolio:hover{
+        border-radius: 10px;
+        background-color: #240090;
+    }
+    .topics:hover{
+        border-radius: 10px;
+        background-color: #240090;
+    }
+    .home:hover{
+        border-radius: 10px;
+        background-color: #240090;
+    }
+    .body{
+        color:white;
+         
+        font-size: large;
+    }
+    .welcome{
+        text-align: center;
+    }
+    .image{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  object-fit: cover;
+    }
+    .body1{
+      transition:0.20s;
+      display: block;
+      text-align: center;
+ 
+    }
+    .body1:hover{
+        background-color: #3500d3;
+
+    }
+    .sideheading{
+        text-align: center;
+    }
+    .sh1{
+         display: inline-block;
+         transition:0.20s;
+    }
+    .sh1:hover{
+        background-color:#190061;
+        border-radius:10px;
+    }
+    .starlink
+    {
+        width: 75%;
+    }
+   .matter{
+    transition:0.20;
+   }
+   </style>
+</head>
+<body class="bcolor">
+    <div class="header">
+       <p id="home"class="home">
+            Home
+        </p>
+        <p class="topics">
+            Topics
+        </p>
+        <p class="portfolio">
+            Portfolio
+        </p>
+    </div>
+    <div class="body">
+        <p class="welcome">
+            Welcome To My Blog
+        </p>
+        <img  class="image"src="images/blog pic prototype.jpeg" alt="error">
+        <p>
+            Hello, my name  is P.V.Mohith
+        </p>
+        <p>
+            This is just a protoype of my blog so  hope you can learn about new topics i post im mainly intrested in science and astronomy
+        </p>
+      
+        <div class="body1" > 
+            <p></p>
+            <p></p>
+        <p class="matter">
+            Topics
+        </p>
+        <div class="sh1">
+            <p class="sideheading">Topic 1</p>
+            <a href="topic1.html"> <img class="starlink"src="images/starlink.jpeg" alt="error"></a>
+            
+        </div>
+        <div class="sh1">
+            <p class="sideheading">Topic 2 </p>
+                 <a href="topic2.html"> <img class="starlink"src="images/space.jpeg" alt="error"></a>
+        </div>
+       </div>
+       
+     
+    </div>
+</body>
+</html>
